@@ -1,0 +1,25 @@
+{
+  "name": "alexanderfrede-de",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "http://alexanderfrede.de",
+  "keywords": [
+  ],
+  "author": {
+    "name": "Alexander Frede",
+    "email": "post@alexanderfrede",
+    "url": "http://alexanderfrede.de"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "load-grunt-tasks": "*",
+    "grunt-contrib-less": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-notify": "*"
+  }
+}

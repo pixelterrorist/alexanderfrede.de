@@ -1,0 +1,11 @@
+/* =============================================================================
+   Default transition for ui elements
+   ========================================================================== */
+
+.ui-transition( ... ) {
+    -webkit-transform-style: preserve3d;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+    transition-duration: .1s;
+    transition-property: ~`'@{arguments}'.replace(/(^\[)|(\]$)/g,'')`;
+}
